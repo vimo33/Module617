@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Start · Module 617 – Lernplattform</title>
+<link href="assets/style.css" rel="stylesheet"/>
+</head>
+<body>
+<div aria-hidden="true" class="gate hidden" id="passwordGate">
+<div class="gate-card">
+<h2>Zugriff</h2>
+<p>Bitte Kurs-Passwort eingeben.</p>
+<div class="gate-row">
+<input id="gateInput" placeholder="Passwort" type="password"/>
+<button class="btn primary" id="gateBtn">Weiter</button>
+</div>
+<p class="muted error hidden" id="gateError">Falsches Passwort.</p>
+<p class="muted small">Hinweis: Dies ist eine einfache Zugriffsschranke (ohne Benutzerkonto). Fortschritt wird lokal gespeichert.</p>
+</div>
+</div>
+<div class="app">
+<aside class="sidebar">
+<div class="brand">
+<div class="brand-mark">617</div>
+<div class="brand-text">
+<div class="brand-title">Module 617</div>
+<div class="brand-subtitle">KI-Geschäftschancen bewerten</div>
+</div>
+</div>
+<nav class="nav">
+<a class="nav-item active" href="index.html">🏠 Start</a>
+<a class="nav-item" href="phase-1.html">① Phase 1</a>
+<a class="nav-item" href="phase-2.html">② Phase 2</a>
+<a class="nav-item" href="phase-3.html">③ Phase 3</a>
+<a class="nav-item" href="phase-4.html">④ Phase 4</a>
+<a class="nav-item" href="phase-5.html">⑤ Phase 5</a>
+<a class="nav-item" href="templates.html">📄 Templates</a>
+<a class="nav-item" href="resources.html">📚 Ressourcen</a>
+<a class="nav-item" href="templates.html">📄 Templates</a>
+<a class="nav-item" href="help.html">❓ Hilfe</a>
+</nav>
+<div class="sidebar-footer">
+<div class="chip">DE-only · Static</div>
+<div class="muted small">Progress: lokal (Browser)</div>
+</div>
+</aside>
+<main class="main">
+<header class="topbar">
+<div class="topbar-left">
+<h1 class="page-title">🏠 Start</h1>
+<div class="muted small" id="pageMeta"></div>
+</div>
+<div class="topbar-right">
+<div class="search">
+<span class="search-icon">⌕</span>
+<input id="searchInput" placeholder="Suche (Templates, Readings …)" type="search"/>
+</div>
+</div>
+</header>
+<div class="content">
+<div class="grid">
+<div>
+<div class="card">
+<div class="row">
+<span class="badge">Phase 0</span>
+<span class="badge">DE · verbindlich</span>
+<span class="badge">Progress lokal</span>
+</div>
+<div class="divider"></div>
+<h1>Phase 0 – Orientierung &amp; Kickoff</h1>
+<h2>Resource Hub – Zweck und Nutzung</h2>
+<p>Der Resource Hub ist die zentrale Sammlung aller Readings, Referenzen und Hintergrundmaterialien für Modul 617.</p>
+<p>Er dient nicht dazu, Inhalte auswendig zu lernen oder zusammenzufassen, sondern dazu, deine eigene Analyse und Entscheidungsfindung fachlich abzustützen.</p>
+<h3>Zweck des Resource Hub</h3>
+<p>Der Resource Hub hilft dir dabei:</p>
+<ul>
+<li>strategische, regulatorische und methodische Konzepte korrekt einzuordnen,</li>
+<li>deine Annahmen und Bewertungen zu begründen,</li>
+<li>zwischen Hype, Best Practice und organisationaler Realität zu unterscheiden.</li>
+</ul>
+<p>Alle Inhalte im Resource Hub sind so ausgewählt, dass sie direkt zu Aufgaben, Templates oder Entscheidungsfragen im Modul passen.</p>
+<h3>Wie du den Resource Hub nutzt</h3>
+<ul>
+<li>Du nutzt die Inhalte situativ, nicht linear.</li>
+<li>Du greifst auf Readings zurück, wenn sie dir helfen, eine konkrete Frage zu beantworten.</li>
+<li>Du verwendest den Resource Hub als Referenz- und Argumentationsbasis, nicht als Vorlage für Lösungen.</li>
+</ul>
+<h3>Rolle von NotebookLM</h3>
+<p>NotebookLM unterstützt dich dabei:</p>
+<ul>
+<li>Inhalte aus dem Resource Hub schneller zu erschliessen,</li>
+<li>Zusammenhänge zwischen verschiedenen Quellen zu erkennen,</li>
+<li>eigene Notizen, Fragen und Hypothesen zu strukturieren.</li>
+</ul>
+<p>👉 Wichtig:
+ NotebookLM ersetzt nicht deine eigene Analyse, Bewertung oder Entscheidung.
+ Die Verantwortung für Annahmen und Schlussfolgerungen liegt immer bei dir.</p>
+<h3>Verbindung zu späteren Phasen</h3>
+<p>Der Resource Hub wird:</p>
+<ul>
+<li>in Phase 1 für Einordnung von KI-Reifegrad, Regulierung und Ambition genutzt,</li>
+<li>in Phase 2 zur Bewertung von Optionen und Benchmarks herangezogen,</li>
+<li>in Phase 3 zur Begründung von Nutzen, Risiken und Annahmen verwendet,</li>
+<li>in Phase 4 &amp; 5 als Hintergrund für die Verteidigung deiner Entscheidung relevant.</li>
+</ul>
+<h2>1. Introduction / Einleitung</h2>
+<p>Bevor du in die eigentlichen Phasen von Modul 617 einsteigst, findest du hier drei zentrale Orientierungsdokumente. Diese enthalten verbindliche Grundlagen, die für alle späteren Phasen relevant sind und nicht wiederholt erklärt werden.</p>
+<h3>Zentrale Orientierungsdokumente</h3>
+<ul>
+<li>Orientierungsleitfaden für Studierende
+Erklärt Zielsetzung, Aufbau und Denklogik von Modul 617 sowie den Zusammenhang der einzelnen Phasen.</li>
+<li>Memo für Studierende („Warum dieses Modul?“)
+Ordnet Modul 617 in den Gesamtkontext der Ausbildung ein und erklärt den Fokus auf Entscheidungsfähigkeit statt Tool-Demonstration.</li>
+<li>NotebookLM – Nutzungshinweise für Modul 617
+Zeigt, wie NotebookLM als Lern- und Denkwerkzeug eingesetzt werden kann, ohne deine eigene Analyse zu ersetzen.</li>
+</ul>
+<p>👉 Diese drei Dokumente sind Pflichtlektüre. Lies sie vollständig, bevor du mit Phase 1 beginnst.</p>
+<p>In der Introduction gibt es keine bewerteten Abgaben. Ziel ist Orientierung und ein gemeinsames Verständnis der Arbeitsweise im Modul.</p>
+<h2>2. Zweck dieser Phase</h2>
+<p>Phase 0 dient der Orientierung und dem gemeinsamen Start in Modul 617.</p>
+<p>Du sollst verstehen:</p>
+<ul>
+<li>warum das Modul genau so aufgebaut ist,</li>
+<li>welche Art von Entscheidung du am Ende vorbereitest,</li>
+<li>wie die einzelnen Phasen logisch aufeinander aufbauen,</li>
+<li>welche Templates dich durch das gesamte Modul begleiten.</li>
+</ul>
+<p>In Phase 0 wird nichts bewertet. Der Fokus liegt ausschliesslich auf Verstehen, Einordnen und Vorbereiten.</p>
+<h2>3. Zentrale Leitfrage des Moduls</h2>
+<p>Soll dieses KI-Vorhaben in dieser Form, in dieser Organisation und zu diesem Zeitpunkt weiterverfolgt werden – und wenn ja, unter welchen Bedingungen?</p>
+<p>Alle Aufgaben, Templates, Diskussionen und Abgaben in Modul 617 dienen dazu, diese Frage fundiert beantworten zu können.</p>
+<h2>4. Wichtige Endergebnisse des Moduls (Ausblick)</h2>
+<p>Im Verlauf des Moduls arbeitest du auf vier zentrale Templates hin:</p>
+<ul>
+<li>Golden Use Case Summary
+Kompakte, entscheidungsreife Beschreibung eines ausgewählten KI-Anwendungsfalls.</li>
+<li>AI Project Canvas
+Strukturierte Übersicht zu Problem, Daten, KI-Ansatz, Nutzen und Risiken.</li>
+<li>Management Deck (10 Slides)
+Präsentation deiner Empfehlung für Entscheidungsträger:innen.</li>
+<li>Business Case Folder
+Evidenzsammlung mit allen Analysen, Annahmen und Begründungen hinter dem Deck.</li>
+</ul>
+<p>Diese Templates werden in Phase 0 nur vorgestellt, noch nicht erstellt.</p>
+<h2>5. Was wir in der Live-Kickoff-Session machen</h2>
+<p>Im Kickoff werden wir gemeinsam:</p>
+<ul>
+<li>den Aufbau und Ablauf des gesamten Moduls erklären,</li>
+<li>die finalen Outputs (Management Deck und Business Case Folder) zeigen,</li>
+<li>einen Überblick über alle wichtigen Templates geben,</li>
+<li>diskutieren, was einen geeigneten Case ausmacht (Organisation + Prozess),</li>
+<li>Schritt für Schritt erklären, wie ein synthetischer Mini-Datensatz entsteht und wofür er genutzt wird,</li>
+<li>den Unterschied zwischen synthetischen Daten und der realen Datenlandschaft inkl. DSG-Rahmenbedingungen einordnen,</li>
+<li>eine kurze Tour durch den Resource Hub machen und NotebookLM korrekt einordnen.</li>
+</ul>
+<h2>6. Nach der Kickoff-Session (keine Abgabe)</h2>
+<p>Nach dem Kickoff solltest du:</p>
+<ul>
+<li>die drei Orientierungsdokumente gelesen haben,</li>
+<li>eine grobe Idee für deine Organisation und einen möglichen Prozess entwickelt haben,</li>
+<li>wissen, wo alle Templates und Readings im Resource Hub zu finden sind,</li>
+<li>bereit sein, in Phase 1 deinen Case verbindlich festzulegen.</li>
+</ul>
+<p>Es gibt keine Abgabe in Phase 0.</p>
+<h2>7. Übergang zu Phase 1</h2>
+<ul>
+<li>Phase 0 = Verstehen</li>
+<li>Phase 1 = Festlegen</li>
+</ul>
+<p>In Phase 1 triffst du erste verbindliche Entscheidungen zu:</p>
+<ul>
+<li>Organisation,</li>
+<li>Prozess,</li>
+<li>KI-Ambition.</li>
+</ul>
+<p>Diese Entscheidungen bilden das Fundament für alle weiteren Phasen von Modul 617.</p>
+</div>
+</div>
+<div>
+<div class="card"><h2>Checkliste</h2><p class="muted">Diese Punkte solltest du am Ende der Phase abhaken können (lokal gespeichert).</p>
+<div class="divider"></div>
+<label class="check searchable"><input data-progress-key="phase0_check_1" type="checkbox"/> <span>Die drei Orientierungsdokumente gelesen (Orientierungsleitfaden, Memo, NotebookLM Guide).</span></label>
+<label class="check searchable"><input data-progress-key="phase0_check_2" type="checkbox"/> <span>Eine grobe Idee für Organisation + möglichen Prozess skizziert.</span></label>
+<label class="check searchable"><input data-progress-key="phase0_check_3" type="checkbox"/> <span>Verstanden, wie der Resource Hub genutzt wird (situativ, nicht linear).</span></label>
+</div>
+<div class="card slim">
+<h2>Phase abgeschlossen</h2>
+<p class="muted">Wenn du die Checkliste erfüllt hast:</p>
+<label class="check"><input data-progress-key="phase0_complete" type="checkbox"/> <span>Phase 0 als abgeschlossen markieren</span></label>
+</div>
+<div class="card"><h2>Ressourcen &amp; Readings</h2><p class="muted">Der Resource Hub ist eine Referenzschicht. Nutze Readings situativ, wenn sie eine konkrete Frage beantworten helfen.</p><div class="reading-list" id="phaseReadings"></div></div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="muted small">
+        Modul 617 Website · Content aus Kursunterlagen · Fortschritt nur lokal gespeichert
+      </div>
+</footer>
+</main>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

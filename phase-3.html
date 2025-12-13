@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Phase 3 · Module 617 – Lernplattform</title>
+  <link href="assets/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div aria-hidden="true" class="gate hidden" id="passwordGate">
+    <div class="gate-card">
+      <h2>Zugriff</h2>
+      <p>Bitte Kurs-Passwort eingeben.</p>
+      <div class="gate-row">
+        <input id="gateInput" placeholder="Passwort" type="password" />
+        <button class="btn primary" id="gateBtn">Weiter</button>
+      </div>
+      <p class="muted error hidden" id="gateError">Falsches Passwort.</p>
+      <p class="muted small">Hinweis: Dies ist eine einfache Zugriffsschranke (ohne Benutzerkonto). Fortschritt wird
+        lokal gespeichert.</p>
+    </div>
+  </div>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">617</div>
+        <div class="brand-text">
+          <div class="brand-title">Module 617</div>
+          <div class="brand-subtitle">KI-Geschäftschancen bewerten</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a class="nav-item" href="index.html">🏠 Start</a>
+        <a class="nav-item" href="phase-1.html">① Phase 1</a>
+        <a class="nav-item" href="phase-2.html">② Phase 2</a>
+        <a class="nav-item active" href="phase-3.html">③ Phase 3</a>
+        <a class="nav-item" href="phase-4.html">④ Phase 4</a>
+        <a class="nav-item" href="phase-5.html">⑤ Phase 5</a>
+        <a class="nav-item" href="templates.html">📄 Templates</a>
+        <a class="nav-item" href="resources.html">📚 Ressourcen</a>
+        <a class="nav-item" href="templates.html">📄 Templates</a>
+        <a class="nav-item" href="help.html">❓ Hilfe</a>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="chip">DE-only · Static</div>
+        <div class="muted small">Progress: lokal (Browser)</div>
+      </div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-left">
+          <div class="breadcrumbs"><a href="index.html">Start</a> <span class="sep">/</span> <span>Phase 3</span></div>
+          <h1 class="page-title">③ Phase 3</h1>
+          <div class="muted small" id="pageMeta"></div>
+        </div>
+        <div class="topbar-right">
+          <div class="search">
+            <span class="search-icon">⌕</span>
+            <input id="searchInput" placeholder="Suche (Templates, Readings …)" type="search" />
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="grid">
+          <div>
+            <div class="card">
+              <div class="row">
+                <span class="badge">③ Phase 3</span>
+                <span class="badge">DE · verbindlich</span>
+                <span class="badge">Progress lokal</span>
+              </div>
+              <div class="divider"></div>
+              <h1>Phase 3 – Business Case &amp; Risiko</h1>
+
+              <h2>1. Worum es in dieser Phase geht (WHY)</h2>
+              <p>Phase 3 ist die Verdichtungs- und Absicherungsphase von Modul 617. Nachdem du in Phase 2 deinen Golden
+                Use Case ausgewählt hast, geht es nun darum, diesen Use Case entscheidungsreif zu machen.</p>
+              <p>Der Fokus verschiebt sich:</p>
+              <ul>
+                <li>von „Welche Option ist sinnvoll?“</li>
+                <li>zu „Ist dieser Use Case unter realistischen Annahmen tragfähig?“</li>
+              </ul>
+              <p>In dieser Phase übersetzt du Annahmen, Hypothesen und qualitative Einsichten in eine strukturierte,
+                transparente Entscheidungslogik.</p>
+              <h2>2. Was du am Ende der Phase erreicht hast (OUTCOME)</h2>
+              <p>Am Ende von Phase 3 hast du:</p>
+              <ul>
+                <li>einen vollständig ausgefüllten AI Project Canvas für deinen Golden Use Case,</li>
+                <li>eine Decision Six – Full Version, die KI-, Nicht-KI- und Status-quo-Optionen vergleichbar macht,
+                </li>
+                <li>eine einfache, nachvollziehbare Business-Case-Rechnung (Kosten, Nutzen, Payback),</li>
+                <li>eine ehrliche Einschätzung der Datenrealität (Data Reality Check),</li>
+                <li>eine zusammengefasste DSG/FADP-Bewertung (Check &amp; Red Flags),</li>
+                <li>eine Implementation Friction Map mit zentralen Umsetzungshemmnissen,</li>
+                <li>ein Pre-Mortem („Es ist 2026 und das Projekt ist gescheitert – warum?“),</li>
+                <li>ein erstes 10-Slide-Storyboard für Entscheider:innen.</li>
+              </ul>
+              <p>Diese Ergebnisse bilden die Grundlage für die Verteidigung (Phase 4) und den finalen Pitch (Phase 5).
+              </p>
+              <h2>3. Rolle dieser Phase im Gesamtmodul (CONTINUITY)</h2>
+              <p>Phase 3 ist die Realitäts- und Belastungsprobe:</p>
+              <ul>
+                <li>Phase 0 = Verstehen</li>
+                <li>Phase 1 = Festlegen</li>
+                <li>Phase 2 = Auswählen</li>
+                <li>Phase 3 = Durchrechnen &amp; Absichern</li>
+                <li>Phase 4 = Verteidigen</li>
+              </ul>
+              <p>Nach Phase 3 ist klar:</p>
+              <ul>
+                <li>warum dieser Use Case sinnvoll ist,</li>
+                <li>unter welchen Annahmen er funktioniert,</li>
+                <li>wo seine Schwächen und Risiken liegen.</li>
+              </ul>
+              <h2>4. Wie du in Phase 3 arbeitest (HOW)</h2>
+              <p>Phase 3 ist als strukturiertes Selbststudium konzipiert, unterstützt durch Templates und klare
+                Leitfragen.</p>
+              <p>Wichtige Prinzipien:</p>
+              <ul>
+                <li>Einfach vor komplex – keine Finanzmodelle, sondern transparente Logik,</li>
+                <li>Annahmen explizit machen – nichts „zwischen den Zeilen“,</li>
+                <li>Risiken sichtbar machen – nicht wegargumentieren.</li>
+              </ul>
+              <p>Es geht nicht darum, ein Projekt zu „verkaufen“, sondern eine informierte Entscheidung vorzubereiten.
+              </p>
+              <h2>5. Zentrale Denkbewegung der Phase</h2>
+              <p>Die Kernfrage von Phase 3 lautet:</p>
+              <p>„Würden wir diesen Use Case verantwortungsvoll empfehlen, wenn wir selbst entscheiden müssten?“</p>
+              <p>Alle Werkzeuge dieser Phase zwingen dich dazu, Nutzen, Kosten, Risiken und Alternativen nebeneinander
+                zu betrachten.</p>
+              <h2>6. Die Arbeitsschritte in Phase 3 (ÜBERBLICK)</h2>
+              <p>Phase 3 besteht aus mehreren eng verknüpften Arbeitsschritten:</p>
+              <ul>
+                <li>Golden Use Case strukturieren
+                  (AI Project Canvas)</li>
+                <li>Optionen vergleichen
+                  (Decision Six – Full)</li>
+                <li>Kosten &amp; Nutzen abschätzen
+                  (ROI / Payback / Napkin Math)</li>
+                <li>Datenrealität prüfen
+                  (Data Reality Check)</li>
+                <li>Regulatorische Risiken einordnen
+                  (DSG/FADP Check &amp; Red Flags)</li>
+                <li>Umsetzungshemmnisse identifizieren
+                  (Implementation Friction Map)</li>
+                <li>Scheitern vorwegnehmen
+                  (Pre-Mortem)</li>
+                <li>Entscheidungsstory vorbereiten
+                  (10-Slide Storyboard)</li>
+              </ul>
+              <h2>7. Business Case – was er ist (und was nicht)</h2>
+              <p>Der Business Case in Modul 617 ist:</p>
+              <ul>
+                <li>keine detaillierte Finanzplanung,</li>
+                <li>kein Investitionsantrag,</li>
+                <li>kein Garant für Umsetzung.</li>
+              </ul>
+              <p>Er ist:</p>
+              <ul>
+                <li>eine transparente Entscheidungsgrundlage,</li>
+                <li>mit klaren Annahmen,</li>
+                <li>nachvollziehbaren Zahlen,</li>
+                <li>und expliziten Unsicherheiten.</li>
+              </ul>
+              <h2>8. Ressourcen &amp; Resource Hub</h2>
+              <p>In Phase 3 nutzt du den Resource Hub insbesondere für:</p>
+              <ul>
+                <li>Beispiele für einfache ROI-Logiken,</li>
+                <li>Einordnung typischer KI-Risiken,</li>
+                <li>DSG/FADP-Orientierung im Projektkontext,</li>
+                <li>Storytelling- und Strukturhilfen für Management-Entscheidungen,</li>
+                <li>die Template Library – Phase 3.</li>
+              </ul>
+              <p>Die Ressourcen helfen dir beim Denken – sie ersetzen keine Entscheidungen.</p>
+              <h2>9. Übergang zu Phase 4</h2>
+              <p>Mit Abschluss von Phase 3 hast du:</p>
+              <ul>
+                <li>eine klare Empfehlung,</li>
+                <li>aber auch eine klare Kenntnis der Schwachstellen deines Use Cases.</li>
+              </ul>
+              <p>In Phase 4 (Die Verteidigung) wirst du:</p>
+              <ul>
+                <li>kritische Fragen antizipieren,</li>
+                <li>Annahmen verteidigen oder relativieren,</li>
+                <li>deine Entscheidungslogik schärfen.</li>
+              </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="card">
+              <h2>Passende Readings</h2>
+              <div class="reading-list" id="phaseReadings"></div>
+            </div>
+            <div class="card">
+              <h2>Reflexionsfragen</h2>
+              <p class="muted">Kurzer Reality-Check für Entscheidungsreife.</p>
+              <div class="divider"></div>
+              <ul>
+                <li>Kannst du deine Kernaussage in <strong>30 Sekunden</strong> erklären – ohne Buzzwords?</li>
+                <li>Könntest du es einem/einer <strong>CFO</strong> erklären: Nutzen, Kosten, Payback, Risiken?</li>
+                <li>Welche <strong>eine Annahme</strong> würde dein Resultat am stärksten kippen?</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <h2>Checkliste</h2>
+              <p class="muted">Diese Punkte solltest du am Ende der Phase abhaken können (lokal gespeichert).</p>
+              <div class="divider"></div>
+              <label class="check searchable"><input data-progress-key="phase3_check_1" type="checkbox" /> <span>AI
+                  Project Canvas vollständig ausgefüllt.</span></label>
+              <label class="check searchable"><input data-progress-key="phase3_check_2" type="checkbox" />
+                <span>Decision Six – Full Version erstellt.</span></label>
+              <label class="check searchable"><input data-progress-key="phase3_check_3" type="checkbox" /> <span>ROI /
+                  Payback / Napkin Math gerechnet (transparent, einfach).</span></label>
+              <label class="check searchable"><input data-progress-key="phase3_check_4" type="checkbox" /> <span>Data
+                  Reality Check durchgeführt.</span></label>
+              <label class="check searchable"><input data-progress-key="phase3_check_5" type="checkbox" />
+                <span>DSG/FADP Check &amp; Red Flags zusammengefasst.</span></label>
+              <label class="check searchable"><input data-progress-key="phase3_check_6" type="checkbox" />
+                <span>Implementation Friction Map erstellt.</span></label>
+              <label class="check searchable"><input data-progress-key="phase3_check_7" type="checkbox" />
+                <span>Pre-Mortem geschrieben.</span></label>
+              <label class="check searchable"><input data-progress-key="phase3_check_8" type="checkbox" />
+                <span>10-Slide Storyboard erstellt.</span></label>
+            </div>
+            <div class="card slim">
+              <h2>Phase abgeschlossen</h2>
+              <p class="muted">Wenn du die Checkliste erfüllt hast:</p>
+              <label class="check"><input data-progress-key="phase3_complete" type="checkbox" /> <span>Phase 3 als
+                  abgeschlossen markieren</span></label>
+            </div>
+            <div class="card">
+              <h2>Templates dieser Phase</h2>
+              <div class="template-list" id="phaseTemplates"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="muted small">
+          Modul 617 Website · Content aus Kursunterlagen · Fortschritt nur lokal gespeichert
+        </div>
+      </footer>
+    </main>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+
+</html>

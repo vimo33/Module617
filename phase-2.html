@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Phase 2 · Module 617 – Lernplattform</title>
+  <link href="assets/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div aria-hidden="true" class="gate hidden" id="passwordGate">
+    <div class="gate-card">
+      <h2>Zugriff</h2>
+      <p>Bitte Kurs-Passwort eingeben.</p>
+      <div class="gate-row">
+        <input id="gateInput" placeholder="Passwort" type="password" />
+        <button class="btn primary" id="gateBtn">Weiter</button>
+      </div>
+      <p class="muted error hidden" id="gateError">Falsches Passwort.</p>
+      <p class="muted small">Hinweis: Dies ist eine einfache Zugriffsschranke (ohne Benutzerkonto). Fortschritt wird
+        lokal gespeichert.</p>
+    </div>
+  </div>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">617</div>
+        <div class="brand-text">
+          <div class="brand-title">Module 617</div>
+          <div class="brand-subtitle">KI-Geschäftschancen bewerten</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a class="nav-item" href="index.html">🏠 Start</a>
+        <a class="nav-item" href="phase-1.html">① Phase 1</a>
+        <a class="nav-item active" href="phase-2.html">② Phase 2</a>
+        <a class="nav-item" href="phase-3.html">③ Phase 3</a>
+        <a class="nav-item" href="phase-4.html">④ Phase 4</a>
+        <a class="nav-item" href="phase-5.html">⑤ Phase 5</a>
+        <a class="nav-item" href="templates.html">📄 Templates</a>
+        <a class="nav-item" href="resources.html">📚 Ressourcen</a>
+        <a class="nav-item" href="templates.html">📄 Templates</a>
+        <a class="nav-item" href="help.html">❓ Hilfe</a>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="chip">DE-only · Static</div>
+        <div class="muted small">Progress: lokal (Browser)</div>
+      </div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-left">
+          <div class="breadcrumbs"><a href="index.html">Start</a> <span class="sep">/</span> <span>Phase 2</span></div>
+          <h1 class="page-title">② Phase 2</h1>
+          <div class="muted small" id="pageMeta"></div>
+        </div>
+        <div class="topbar-right">
+          <div class="search">
+            <span class="search-icon">⌕</span>
+            <input id="searchInput" placeholder="Suche (Templates, Readings …)" type="search" />
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="grid">
+          <div>
+            <div class="card">
+              <div class="row">
+                <span class="badge">② Phase 2</span>
+                <span class="badge">DE · verbindlich</span>
+                <span class="badge">Progress lokal</span>
+              </div>
+              <div class="divider"></div>
+            </div>
+            <div class="card">
+              <h2>Passende Readings</h2>
+              <div class="reading-list" id="phaseReadings"></div>
+            </div>
+            <div class="card">
+              <h2>Reflexionsfragen</h2>
+              <p class="muted">Kurzer Reality-Check für Entscheidungsreife.</p>
+              <div class="divider"></div>
+              <ul>
+                <li>Kannst du deine Kernaussage in <strong>30 Sekunden</strong> erklären – ohne Buzzwords?</li>
+                <li>Könntest du es einem/einer <strong>CFO</strong> erklären: Nutzen, Kosten, Payback, Risiken?</li>
+                <li>Welche <strong>eine Annahme</strong> würde dein Resultat am stärksten kippen?</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <h2>Checkliste</h2>
+              <p class="muted">Diese Punkte solltest du am Ende der Phase abhaken können (lokal gespeichert).</p>
+              <div class="divider"></div>
+              <label class="check searchable"><input data-progress-key="phase2_check_1" type="checkbox" /> <span>Pain
+                  Points im Prozess sichtbar gemacht (Pain Point Map).</span></label>
+              <label class="check searchable"><input data-progress-key="phase2_check_2" type="checkbox" /> <span>Top-3
+                  Pain Points priorisiert.</span></label>
+              <label class="check searchable"><input data-progress-key="phase2_check_3" type="checkbox" /> <span>Mehrere
+                  Optionen gesammelt (KI + Nicht-KI).</span></label>
+              <label class="check searchable"><input data-progress-key="phase2_check_4" type="checkbox" />
+                <span>Optionen im AI Opportunity Radar eingeordnet.</span></label>
+              <label class="check searchable"><input data-progress-key="phase2_check_5" type="checkbox" />
+                <span>Benchmarks / Referenzen berücksichtigt.</span></label>
+              <label class="check searchable"><input data-progress-key="phase2_check_6" type="checkbox" /> <span>Golden
+                  Use Case ausgewählt und begründet.</span></label>
+              <label class="check searchable"><input data-progress-key="phase2_check_7" type="checkbox" />
+                <span>Decision Six – First Pass aktualisiert.</span></label>
+            </div>
+            <div class="card slim">
+              <h2>Phase abgeschlossen</h2>
+              <p class="muted">Wenn du die Checkliste erfüllt hast:</p>
+              <label class="check"><input data-progress-key="phase2_complete" type="checkbox" /> <span>Phase 2 als
+                  abgeschlossen markieren</span></label>
+            </div>
+            <div class="card">
+              <h2>Templates dieser Phase</h2>
+              <div class="template-list" id="phaseTemplates"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="muted small">
+          Modul 617 Website · Content aus Kursunterlagen · Fortschritt nur lokal gespeichert
+        </div>
+      </footer>
+    </main>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+
+</html>
