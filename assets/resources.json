@@ -1,0 +1,186 @@
+[
+  {
+    "phase": "Phase 0 – Orientierung & Kickoff",
+    "tag": "CORE",
+    "title": "Rethinking Business Strategy in the Age of AI (HBS)",
+    "url": "https://www.library.hbs.edu/working-knowledge/rethinking-business-strategy-in-the-age-of-ai",
+    "description": "This article from Harvard Business School Working Knowledge explains how AI is reshaping business strategy and operating models – not just individual tools. It introduces the idea of treating data and algorithms as a kind of “AI factory” at the core of the organisation and shows what it means when a company is truly “AI-first”.",
+    "use": ""
+  },
+  {
+    "phase": "Phase 0 – Orientierung & Kickoff",
+    "tag": "CORE",
+    "title": "What's your company's AI maturity level? (WITH Sloan)",
+    "url": "https://mitsloan.mit.edu/ideas-made-to-matter/whats-your-companys-ai-maturity-level",
+    "description": "Introduces the MIT Enterprise AI Maturity Model with four stages and shows how more mature organizations tend to outperform financially. This is your reference for the idea of “AI maturity/readiness” and will ground your self-assessment later.",
+    "use": "Read before phase 1; load this page (or PDF print) into Notebook LM as your main maturity reference."
+  },
+  {
+    "phase": "Phase 0 – Orientierung & Kickoff",
+    "tag": "OPTIONAL",
+    "title": "Building Enterprise AI Maturity (MIT CISR Research Briefing)",
+    "url": "https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian",
+    "description": "A more detailed research note behind the MIT maturity model, including capabilities to build at each stage. Useful if you want a deeper, research-based view of how large firms scale AI.",
+    "use": "Optional background for students with a strategy/consulting interest."
+  },
+  {
+    "phase": "Phase 1 – Setup: Strategische Diagnose & Regulierung",
+    "tag": "CORE",
+    "title": "Orientation AI: Challenges and opportunities for Swiss SMEs (SATW)",
+    "url": "https://www.satw.ch/en/publications/orientation-ai-challenges-and-opportunities-for-swiss-smes",
+    "description": "A practical guide (with factsheet & PDF) on how Swiss SMEs can use AI, typical pitfalls (data quality, skills, regulation) and implementation strategies. It gives you realistic examples from the Swiss context that you can borrow for your own “AI Ambition” and readiness snapshot.",
+    "use": "Read the summary + skim the PDF for examples before Task 1.1; load the PDF into Notebook LM."
+  },
+  {
+    "phase": "Phase 1 – Setup: Strategische Diagnose & Regulierung",
+    "tag": "CORE",
+    "title": "Swiss Data Protection – Overview (nFADP)",
+    "url": "https://www.kmu.admin.ch/kmu/en/home/facts-and-trends/digitization/data-protection/new-federal-act-on-data-protection-nfadp.html",
+    "description": "Short official overview of the new Federal Act on Data Protection (nFADP). It explanations in plain language what counts as personal data, what companies must do, and where the main risks are.",
+    "use": "Read before your “Red Flag” regulatory check; load into Notebook LM so you can ask detailed questions later."
+  },
+  {
+    "phase": "Phase 1 – Setup: Strategische Diagnose & Regulierung",
+    "tag": "CORE",
+    "title": "Artificial Intelligence and Data Protection in Switzerland (SIDD)",
+    "url": "https://www.sidd.swiss/en/news/artificial-intelligence-and-data-protection-in-switzerland-challenges-and-solutions",
+    "description": "This article connects AI use directly with Swiss data protection law, illustrating typical risks (profiling, opacity, cross-border processing) and mitigation strategies. It's a bridge between abstract FADP rules and concrete AI projects.",
+    "use": "Skim once before flagging “Red Flag” processes; recommended for Notebook LM."
+  },
+  {
+    "phase": "Phase 1 – Setup: Strategische Diagnose & Regulierung",
+    "tag": "OPTIONAL",
+    "title": "Federal Act on Data Protection – Legal Text (admin.ch)",
+    "url": "https://www.fedlex.admin.ch/eli/cc/2022/491/en",
+    "description": "The full English text of the FADP. This is primary law, not a tutorial. Only consult if you want to see the original articles behind the summaries.",
+    "use": "Optional reference; no need to load into Notebook LM unless you like reading legal texts."
+  },
+  {
+    "phase": "Phase 1 – Setup: Strategische Diagnose & Regulierung",
+    "tag": "OPTIONAL",
+    "title": "Swiss AI Report 2023 – AI in Swiss SMEs",
+    "url": "https://www.corpin.ch/en/swiss-ai-report",
+    "description": "Survey-based report on how Swiss SMEs are actually using (or not yet using) AI, with obstacles like missing data, skills, and integration issues. Good reality check when you think about your own organization's AI maturity and culture.",
+    "use": "Optional context reading for Phase 1 reflections."
+  },
+  {
+    "phase": "Phase 2 – Discovery Sprint: Identifikation & Benchmarking",
+    "tag": "CORE",
+    "title": "Business Model Navigator (University of St. Gallen)",
+    "url": "https://www.businessmodelnavigator.com/",
+    "description": "A pattern library of business models (eg “freemium”, “data as a service”) from HSG. Use it to think about where value is created in your organization and how AI might support or extend existing models rather than just add a gadget.",
+    "use": "Browse 3–4 patterns that ensemble your organization before or after the Discovery Sprint; optional for Notebook LM (you can instead paste selected pattern descriptions)."
+  },
+  {
+    "phase": "Phase 2 – Discovery Sprint: Identifikation & Benchmarking",
+    "tag": "CORE",
+    "title": "AI Opportunity Radar (Miro Template)",
+    "url": "https://miro.com/templates/ai-opportunity-radar/",
+    "description": "A visual template that helps you map paintings/problems to AI capabilities (prediction, generation, automation) and judge impact vs feasibility. This is the board we'll mirror in our workshop (“Opportunity Radar” exercise).",
+    "use": "Open the template to understand the axes before the Discovery Sprint; no need to load into Notebook LM, as we'll work directly in Miro."
+  },
+  {
+    "phase": "Phase 2 – Discovery Sprint: Identifikation & Benchmarking",
+    "tag": "CORE",
+    "title": "AI Use Cases Presentation Template (YouExec)",
+    "url": "https://youexec.com/presentation-templates/ai-use-cases",
+    "description": "A slide deck template that structures each AI use case around problem, value, costs, ROI, risks and implementation. You don't need to buy anything – just look at the preview to see how a well-structured use-case story looks.",
+    "use": "Use as inspiration when drafting your own Golden Use Case description."
+  },
+  {
+    "phase": "Phase 2 – Discovery Sprint: Identifikation & Benchmarking",
+    "tag": "OPTIONAL",
+    "title": "5 Whys Analysis – Root Cause Technique (Atlassian)",
+    "url": "https://www.atlassian.com/team-playbook/plays/5-whys",
+    "description": "Explains the “5 Whys” method for finding root causes rather than symptoms, with a short how-to. This underpins the “Problem Statement Sprint” where we push you to go beyond “we need a chatbot” to measurable operational problems.",
+    "use": "Optional but helpful reading before you write your problem statement; good candidate for Notebook LM if you like structured questioning."
+  },
+  {
+    "phase": "Phase 3 – Business Case & Risiko",
+    "tag": "CORE",
+    "title": "NIST AI Risk Management Framework (Overview)",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "description": "Standard US framework for thinking about AI risks across the lifecycle, organized around functions like “map, measure, manage, govern.” You don't need to read the full PDF; the overview page already shows typical risk categories and control ideas.",
+    "use": "Skim the overview; load the overview and/or PDF into Notebook LM as your main risk reference."
+  },
+  {
+    "phase": "Phase 3 – Business Case & Risiko",
+    "tag": "CORE",
+    "title": "AI ROI & Payback Guide (blog with forms)",
+    "url": "https://www.hakunamatatatech.com/our-resources/blog/ai-roi-calculator",
+    "description": "Short guide with very clear forms for ROI and Payback Period and examples of what to count as costs and benefits in AI projects. This is exactly what you need for the “ROI napkin math” and payback estimation in your business case.",
+    "use": "Read and keep cell phone when doing Task 3.2; strongly recommended for Notebook LM so your tutor can help with numbers."
+  },
+  {
+    "phase": "Phase 3 – Business Case & Risiko",
+    "tag": "CORE",
+    "title": "AI Canvas (Miro Template)",
+    "url": "https://miro.com/templates/ai-canvas/",
+    "description": "Visual one-page canvas for structuring an AI project: problem, data sources, model, outputs, metrics, risks, etc. We mirror this in our AI Project Canvas template; this reference shows the underlying logic if you’re curious.",
+    "use": "Open once before you fill your own canvas; no need to load into Notebook LM if you're already loading our internal template."
+  },
+  {
+    "phase": "Phase 3 – Business Case & Risiko",
+    "tag": "OPTIONAL",
+    "title": "Artificial Intelligence: The Next Digital Frontier? (McKinsey)",
+    "url": "https://www.mckinsey.com/~/media/mckinsey/industries/advanced%20electronics/our%20insights/how%20artificial%20intelligence%20can%20deliver%20real%20value%20to%20companies/mgi-artificial-intelligence-discussion-paper.pdf",
+    "description": "A long but influential paper on where AI creates economic value and what enables ROI at scale. Good if you want more evidence and examples behind the “AI creates value when it changes core processes” mantra.",
+    "use": "Optional deep dive for students interested in strategy/consulting; not required for assignments."
+  },
+  {
+    "phase": "Phase 3 – Business Case & Risiko",
+    "tag": "OPTIONAL",
+    "title": "The AI Business Case Playbook – Securing Executive Buy-In (LIT.AI)",
+    "url": "https://lit.ai/blog/2025/06/18/the-ai-business-case-playbook-securing-executive-buy-in/",
+    "description": "Recent playbook on multi-x ROI (3.7x, 10x examples) and how to translate AI benefits into language executives care about. Nice bridge between your spreadsheet calculations and the narrative in your final slides.",
+    "use": "Optional reading just before Phase 4 if you want more examples of “executive-ready” AI cases."
+  },
+  {
+    "phase": "Phase 4 – The Defense (Storytelling, Folienlogik, Executive Style)",
+    "tag": "CORE",
+    "title": "Storytelling with Data – Learning Videos",
+    "url": "https://www.storytellingwithdata.com/videos",
+    "description": "Collection of short videos on how to turn charts and tables into clear visual stories (eg “how to turn data into stories”, “transform a dashboard into a compelling story”). Focus on one or two videos, not the whole library.",
+    "use": "Watch 1–2 videos before building your 10-slide deck; you can add this page to Notebook LM if you want tips on chart choices."
+  },
+  {
+    "phase": "Phase 4 – The Defense (Storytelling, Folienlogik, Executive Style)",
+    "tag": "CORE",
+    "title": "Guy Kawasaki – 10/20/30 Rule of PowerPoint (Video)",
+    "url": "https://www.youtube.com/watch?v=liQLdRk0Ziw",
+    "description": "Classic 2-minute explanation of the 10/20/30 rule (10 slides, 20 minutes, 30-point font) and why most decks are too dense. Use this as a sanity check to avoid text-heavy slides and tiny fonts in your pitch.",
+    "use": "Watch once before you finalize your slides."
+  },
+  {
+    "phase": "Phase 4 – The Defense (Storytelling, Folienlogik, Executive Style)",
+    "tag": "OPTIONAL",
+    "title": "Data Storytelling Guide (World Bank / ZHAW)",
+    "url": "https://www.zhaw.ch/en/sml/institutes-centres/ivm/about-us/public-sector-financial-management/a-guide-to-data-storytelling-in-the-public-sector",
+    "description": "A free PDF guide on data storytelling (narrative, visuals, ethics) aimed at public-sector professionals but very relevant for any management presentation. Helpful if you want to level up beyond basic charts.",
+    "use": "Optional deep dive; useful for students who enjoy communication and want extra polish."
+  },
+  {
+    "phase": "Phase 4 – The Defense (Storytelling, Folienlogik, Executive Style)",
+    "tag": "OPTIONAL",
+    "title": "What is Data Storytelling? (Adobe Express)",
+    "url": "https://www.adobe.com/express/discover/how-to/data-storytelling",
+    "description": "Short article summarizing what “data storytelling” means, why it matters for decision-making, and what makes a good narrative.",
+    "use": "Quick 5-minute primer before or after watching the videos above."
+  },
+  {
+    "phase": "Phase 5 – Final Pitch & Abgabe (Referenzmaterialien)",
+    "tag": "CORE",
+    "title": "AI Use Cases Presentation Template (YouExec) – as Slide Inspiration",
+    "url": "https://youexec.com/presentation-templates/ai-use-cases",
+    "description": "We are already listed this in Phase 2; at Phase 5, review the preview to compare how they structure problem → solution → ROI → risks → roadmap against your own 10-slide argument.",
+    "use": "Use as a checklist when reviewing your final deck."
+  },
+  {
+    "phase": "Phase 5 – Final Pitch & Abgabe (Referenzmaterialien)",
+    "tag": "OPTIONAL",
+    "title": "Storytelling with Data – Excel Tutorials",
+    "url": "https://www.storytellingwithdata.com/exceltutorials",
+    "description": "If you really want to refine specific charts (bar charts, forecasts, uncertainty, etc.), these tutorials show step-by-step improvements.",
+    "use": "Optional resource while polishing graphs in your final slides."
+  }
+]

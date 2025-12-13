@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Hilfe · Module 617 – Lernplattform</title>
+<link href="assets/style.css" rel="stylesheet"/>
+</head>
+<body>
+<div aria-hidden="true" class="gate hidden" id="passwordGate">
+<div class="gate-card">
+<h2>Zugriff</h2>
+<p>Bitte Kurs-Passwort eingeben.</p>
+<div class="gate-row">
+<input id="gateInput" placeholder="Passwort" type="password"/>
+<button class="btn primary" id="gateBtn">Weiter</button>
+</div>
+<p class="muted error hidden" id="gateError">Falsches Passwort.</p>
+<p class="muted small">Hinweis: Dies ist eine einfache Zugriffsschranke (ohne Benutzerkonto). Fortschritt wird lokal gespeichert.</p>
+</div>
+</div>
+<div class="app">
+<aside class="sidebar">
+<div class="brand">
+<div class="brand-mark">617</div>
+<div class="brand-text">
+<div class="brand-title">Module 617</div>
+<div class="brand-subtitle">KI-Geschäftschancen bewerten</div>
+</div>
+</div>
+<nav class="nav">
+<a class="nav-item" href="index.html">🏠 Start</a>
+<a class="nav-item" href="phase-1.html">① Phase 1</a>
+<a class="nav-item" href="phase-2.html">② Phase 2</a>
+<a class="nav-item" href="phase-3.html">③ Phase 3</a>
+<a class="nav-item" href="phase-4.html">④ Phase 4</a>
+<a class="nav-item" href="phase-5.html">⑤ Phase 5</a>
+<a class="nav-item" href="templates.html">📄 Templates</a>
+<a class="nav-item" href="resources.html">📚 Ressourcen</a>
+<a class="nav-item" href="templates.html">📄 Templates</a>
+<a class="nav-item active" href="help.html">❓ Hilfe</a>
+</nav>
+<div class="sidebar-footer">
+<div class="chip">DE-only · Static</div>
+<div class="muted small">Progress: lokal (Browser)</div>
+</div>
+</aside>
+<main class="main">
+<header class="topbar">
+<div class="topbar-left">
+<h1 class="page-title">❓ Hilfe</h1>
+<div class="muted small" id="pageMeta"></div>
+</div>
+<div class="topbar-right">
+<div class="search">
+<span class="search-icon">⌕</span>
+<input id="searchInput" placeholder="Suche (Templates, Readings …)" type="search"/>
+</div>
+</div>
+</header>
+<div class="content">
+<div class="card">
+<h2>❓ Hilfe</h2>
+<p class="muted">Kurze Hinweise zur Nutzung der Website.</p>
+<div class="divider"></div>
+<h3>Passwort</h3>
+<p>Diese Website nutzt eine einfache Zugriffsschranke (client-side). Sie ersetzt kein Benutzerkonto.</p>
+<p class="muted small">Du kannst das Passwort im Code in <kbd>assets/app.js</kbd> ändern (Variable <kbd>PASSWORD</kbd>).</p>
+<h3>Fortschritt (lokal)</h3>
+<p>Checklisten und „Phase abgeschlossen“-Häkchen werden in <kbd>localStorage</kbd> deines Browsers gespeichert.</p>
+<div class="row">
+<button class="btn" id="exportProgress">Fortschritt exportieren</button>
+<button class="btn" id="importProgress">Fortschritt importieren</button>
+<button class="btn" id="resetProgress">Fortschritt zurücksetzen</button>
+</div>
+<p class="muted small">Export/Import ist optional – hilfreich bei Gerätewechsel.</p>
+<h3>Externe Readings</h3>
+<p>Links zu externen Quellen öffnen in einem neuen Tab. Inhalte liegen bei den jeweiligen Publishern.</p>
+</div>
+<script>
+(function(){
+  const KEY="m617_progress_v1";
+  function download(name, text){
+    const blob=new Blob([text], {type:"application/json"});
+    const a=document.createElement("a");
+    a.href=URL.createObjectURL(blob);
+    a.download=name;
+    a.click();
+    setTimeout(()=>URL.revokeObjectURL(a.href), 1000);
+  }
+  document.getElementById("exportProgress")?.addEventListener("click", ()=>{
+    const data=localStorage.getItem(KEY)||"{}";
+    download("module617-progress.json", data);
+  });
+  document.getElementById("importProgress")?.addEventListener("click", async ()=>{
+    const inp=document.createElement("input");
+    inp.type="file"; inp.accept="application/json";
+    inp.onchange=async ()=>{
+      const file=inp.files?.[0]; if(!file) return;
+      const txt=await file.text();
+      localStorage.setItem(KEY, txt);
+      location.reload();
+    };
+    inp.click();
+  });
+  document.getElementById("resetProgress")?.addEventListener("click", ()=>{
+    if(confirm("Fortschritt wirklich löschen?")){
+      localStorage.removeItem(KEY);
+      location.reload();
+    }
+  });
+})();
+</script>
+</div>
+<footer class="footer">
+<div class="muted small">
+        Modul 617 Website · Content aus Kursunterlagen · Fortschritt nur lokal gespeichert
+      </div>
+</footer>
+</main>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

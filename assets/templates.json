@@ -1,0 +1,138 @@
+[
+  {
+    "id": "case-selection-sheet",
+    "title": "Case Selection Sheet",
+    "phase": 1,
+    "phaseLabel": "Phase 1",
+    "filename": "Module617_Case_Selection_Sheet_UPDATED.docx",
+    "download": "assets/templates/Module617_Case_Selection_Sheet_UPDATED.docx"
+  },
+  {
+    "id": "case-tangibility-questionnaire",
+    "title": "Case Tangibility Questionnaire",
+    "phase": 1,
+    "phaseLabel": "Phase 1",
+    "filename": "Module617_Case_Tangibility_Questionnaire_UPDATED.docx",
+    "download": "assets/templates/Module617_Case_Tangibility_Questionnaire_UPDATED.docx"
+  },
+  {
+    "id": "ai-ambition-note",
+    "title": "AI Ambition Note",
+    "phase": 1,
+    "phaseLabel": "Phase 1",
+    "filename": "Module617_AI_Ambition_Note_Template_UPDATED.docx",
+    "download": "assets/templates/Module617_AI_Ambition_Note_Template_UPDATED.docx"
+  },
+  {
+    "id": "readiness-snapshot",
+    "title": "Readiness Snapshot",
+    "phase": 1,
+    "phaseLabel": "Phase 1",
+    "filename": "Module617_Readiness_Snapshot_Template_UPDATED.docx",
+    "download": "assets/templates/Module617_Readiness_Snapshot_Template_UPDATED.docx"
+  },
+  {
+    "id": "dsg-red-flag-note",
+    "title": "DSG Red Flag Note",
+    "phase": 1,
+    "phaseLabel": "Phase 1",
+    "filename": "Module617_DSG_Red_Flag_Note_Template_UPDATED.docx",
+    "download": "assets/templates/Module617_DSG_Red_Flag_Note_Template_UPDATED.docx"
+  },
+  {
+    "id": "decision-six-first-pass",
+    "title": "Decision Six – First Pass",
+    "phase": 1,
+    "phaseLabel": "Phase 1",
+    "filename": "Module617_Decision_Six_First_Pass_UPDATED.docx",
+    "download": "assets/templates/Module617_Decision_Six_First_Pass_UPDATED.docx"
+  },
+  {
+    "id": "pain-point-map",
+    "title": "Pain Point Map",
+    "phase": 2,
+    "phaseLabel": "Phase 2",
+    "filename": "Module617_Pain_Point_Map_Offline_DE_UPDATED.docx",
+    "download": "assets/templates/Module617_Pain_Point_Map_Offline_DE_UPDATED.docx"
+  },
+  {
+    "id": "ai-opportunity-radar",
+    "title": "AI Opportunity Radar",
+    "phase": 2,
+    "phaseLabel": "Phase 2",
+    "filename": "Module617_AI_Opportunity_Radar_List_DE_UPDATED.docx",
+    "download": "assets/templates/Module617_AI_Opportunity_Radar_List_DE_UPDATED.docx"
+  },
+  {
+    "id": "golden-use-case-summary",
+    "title": "Golden Use Case Summary",
+    "phase": 2,
+    "phaseLabel": "Phase 2",
+    "filename": "Module617_Golden_Use_Case_Summary_Template_UPDATED.docx",
+    "download": "assets/templates/Module617_Golden_Use_Case_Summary_Template_UPDATED.docx"
+  },
+  {
+    "id": "ai-project-canvas",
+    "title": "AI Project Canvas",
+    "phase": 3,
+    "phaseLabel": "Phase 3",
+    "filename": "Module617_AI_Project_Canvas_UPDATED.docx",
+    "download": "assets/templates/Module617_AI_Project_Canvas_UPDATED.docx"
+  },
+  {
+    "id": "decision-six-full",
+    "title": "Decision Six – Full",
+    "phase": 3,
+    "phaseLabel": "Phase 3",
+    "filename": "Module617_Decision_Six_Full_Template_UPDATED.docx",
+    "download": "assets/templates/Module617_Decision_Six_Full_Template_UPDATED.docx"
+  },
+  {
+    "id": "roi-napkin-math",
+    "title": "ROI / Napkin Math",
+    "phase": 3,
+    "phaseLabel": "Phase 3",
+    "filename": "Module617_ROI_Napkin_Math_Template_UPDATED.docx",
+    "download": "assets/templates/Module617_ROI_Napkin_Math_Template_UPDATED.docx"
+  },
+  {
+    "id": "data-reality-check",
+    "title": "Data Reality Check",
+    "phase": 3,
+    "phaseLabel": "Phase 3",
+    "filename": "Module617_Data_Reality_Check_Template_UPDATED.docx",
+    "download": "assets/templates/Module617_Data_Reality_Check_Template_UPDATED.docx"
+  },
+  {
+    "id": "dsg-checklist",
+    "title": "DSG Checklist",
+    "phase": 3,
+    "phaseLabel": "Phase 3",
+    "filename": "Module617_DSG_Checklist_UPDATED.docx",
+    "download": "assets/templates/Module617_DSG_Checklist_UPDATED.docx"
+  },
+  {
+    "id": "implementation-friction-map",
+    "title": "Implementation Friction Map",
+    "phase": 3,
+    "phaseLabel": "Phase 3",
+    "filename": "Module617_Implementation_Friction_Map_UPDATED.docx",
+    "download": "assets/templates/Module617_Implementation_Friction_Map_UPDATED.docx"
+  },
+  {
+    "id": "pre-mortem",
+    "title": "Pre-Mortem",
+    "phase": 3,
+    "phaseLabel": "Phase 3",
+    "filename": "Module617_Pre_Mortem_Template_UPDATED.docx",
+    "download": "assets/templates/Module617_Pre_Mortem_Template_UPDATED.docx"
+  },
+  {
+    "id": "10-slide-storyboard",
+    "title": "10-Slide Storyboard",
+    "phase": 3,
+    "phaseLabel": "Phase 3",
+    "filename": "Module617_10_Slide_Storyboard_Template_UPDATED.docx",
+    "download": "assets/templates/Module617_10_Slide_Storyboard_Template_UPDATED.docx"
+  }
+]

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Phase 1 · Module 617 – Lernplattform</title>
+<link href="assets/style.css" rel="stylesheet"/>
+</head>
+<body>
+<div aria-hidden="true" class="gate hidden" id="passwordGate">
+<div class="gate-card">
+<h2>Zugriff</h2>
+<p>Bitte Kurs-Passwort eingeben.</p>
+<div class="gate-row">
+<input id="gateInput" placeholder="Passwort" type="password"/>
+<button class="btn primary" id="gateBtn">Weiter</button>
+</div>
+<p class="muted error hidden" id="gateError">Falsches Passwort.</p>
+<p class="muted small">Hinweis: Dies ist eine einfache Zugriffsschranke (ohne Benutzerkonto). Fortschritt wird lokal gespeichert.</p>
+</div>
+</div>
+<div class="app">
+<aside class="sidebar">
+<div class="brand">
+<div class="brand-mark">617</div>
+<div class="brand-text">
+<div class="brand-title">Module 617</div>
+<div class="brand-subtitle">KI-Geschäftschancen bewerten</div>
+</div>
+</div>
+<nav class="nav">
+<a class="nav-item" href="index.html">🏠 Start</a>
+<a class="nav-item active" href="phase-1.html">① Phase 1</a>
+<a class="nav-item" href="phase-2.html">② Phase 2</a>
+<a class="nav-item" href="phase-3.html">③ Phase 3</a>
+<a class="nav-item" href="phase-4.html">④ Phase 4</a>
+<a class="nav-item" href="phase-5.html">⑤ Phase 5</a>
+<a class="nav-item" href="templates.html">📄 Templates</a>
+<a class="nav-item" href="resources.html">📚 Ressourcen</a>
+<a class="nav-item" href="templates.html">📄 Templates</a>
+<a class="nav-item" href="help.html">❓ Hilfe</a>
+</nav>
+<div class="sidebar-footer">
+<div class="chip">DE-only · Static</div>
+<div class="muted small">Progress: lokal (Browser)</div>
+</div>
+</aside>
+<main class="main">
+<header class="topbar">
+<div class="topbar-left">
+<h1 class="page-title">① Phase 1</h1>
+<div class="muted small" id="pageMeta"></div>
+</div>
+<div class="topbar-right">
+<div class="search">
+<span class="search-icon">⌕</span>
+<input id="searchInput" placeholder="Suche (Templates, Readings …)" type="search"/>
+</div>
+</div>
+</header>
+<div class="content">
+<div class="grid">
+<div>
+<div class="card">
+<div class="row">
+<span class="badge">① Phase 1</span>
+<span class="badge">DE · verbindlich</span>
+<span class="badge">Progress lokal</span>
+</div>
+<div class="divider"></div>
+<h1>Phase 1 – Setup: Strategische Diagnose &amp; Regulierung</h1>
+<h2>1. Worum es in dieser Phase geht (WHY)</h2>
+<p>In Phase 1 entwickelst du aus einer ersten Idee einen klar abgegrenzten, arbeitsfähigen Fall für Modul 617. Diese Phase schafft das Fundament für alle folgenden Schritte.</p>
+<p>Du bewegst dich bewusst:</p>
+<ul>
+<li>von „Das wäre ein spannendes KI-Thema“</li>
+<li>hin zu „Das ist unser konkreter Fall mit klaren Rahmenbedingungen“.</li>
+</ul>
+<p>Das Ziel ist kein perfektes Konzept, sondern ein ehrlicher, strukturierter Startpunkt, der im Discovery Sprint (Phase 2) kritisch hinterfragt und weiterentwickelt werden kann.</p>
+<h2>2. Was du am Ende der Phase erreicht hast (OUTCOME)</h2>
+<p>Am Ende von Phase 1 hast du:</p>
+<ul>
+<li>eine anonymisierte Organisation und einen klar definierten Kernprozess festgelegt,</li>
+<li>deinen Fall im Case Selection Sheet und im Case Tangibility Questionnaire dokumentiert,</li>
+<li>eine AI Ambition Note formuliert (Was soll KI hier primär leisten?),</li>
+<li>ein erstes synthetisches Mini-Dataset mit realistischen, aber fiktiven Zahlen erstellt,</li>
+<li>einen ersten Readiness Snapshot (Data &amp; Culture) ausgefüllt,</li>
+<li>einen möglichen DSG Red Flag identifiziert (falls relevant),</li>
+<li>ein Problem Statement formuliert,</li>
+<li>einen Decision Six – First Pass ausgearbeitet.</li>
+</ul>
+<p>Alles, was du hier erarbeitest, wird in Phase 2 weiterverwendet.</p>
+<h2>3. Rolle dieser Phase im Gesamtmodul (CONTINUITY)</h2>
+<p>Phase 1 ist die Festlegungsphase:</p>
+<ul>
+<li>Phase 0 = Verstehen</li>
+<li>Phase 1 = Festlegen</li>
+<li>Phase 2 = Erkunden &amp; Vergleichen</li>
+</ul>
+<p>Nach Phase 1 ist klar:</p>
+<ul>
+<li>welche Organisation,</li>
+<li>welcher Prozess,</li>
+<li>welche grundsätzliche KI-Ambition.</li>
+</ul>
+<p>Diese Entscheidungen bilden den stabilen Rahmen, innerhalb dessen du später Optionen bewertest.</p>
+<h2>4. Wie du in Phase 1 arbeitest (HOW)</h2>
+<p>Phase 1 ist als Selbststudium konzipiert. Du arbeitest mit klaren Aufgaben, Templates und kurzen Reflexionen.</p>
+<p>Wichtige Prinzipien:</p>
+<ul>
+<li>Best Guess ist erlaubt – Schätzungen sind okay.</li>
+<li>Ehrlichkeit vor Perfektion – lieber grob richtig als scheinbar exakt.</li>
+<li>Keine echten Daten – ausschliesslich synthetische Zahlen.</li>
+</ul>
+<h2>5. Die Aufgaben in Phase 1 (ÜBERBLICK)</h2>
+<p>Phase 1 besteht aus vier zusammenhängenden Aufgaben:</p>
+<ul>
+<li>Case Setup – Organisation und Prozess festlegen</li>
+<li>Readiness Snapshot &amp; DSG Red Flag – erste Einordnung von Daten, Kultur und Risiken</li>
+<li>Synthetisches Mini-Dataset (erste Version) – Zahlenbasis schaffen</li>
+<li>Problem Statement &amp; Decision Six – First Pass – Problem schärfen und Optionen skizzieren</li>
+</ul>
+<p>Die Aufgaben bauen logisch aufeinander auf.</p>
+<h2>6. Aufgabe 1: Case Setup</h2>
+<p>Ziel: Festlegen, welchen Fall du im Modul bearbeitest.</p>
+<p>Du beschreibst:</p>
+<ul>
+<li>deine anonymisierte Organisation (Branche, Grösse, Leistungen),</li>
+<li>einen zentralen Prozess mit klaren Schwachstellen.</li>
+</ul>
+<p>Du nutzt dazu:</p>
+<ul>
+<li>Case Selection Sheet</li>
+<li>Case Tangibility Questionnaire</li>
+</ul>
+<h2>7. Aufgabe 2: Readiness Snapshot &amp; DSG Red Flag</h2>
+<p>Ziel: Einen ersten, ehrlichen Blick auf die Voraussetzungen werfen.</p>
+<p>Du hältst fest:</p>
+<ul>
+<li>wo relevante Daten ungefähr liegen,</li>
+<li>wie reif Organisation und Kultur für KI sind,</li>
+<li>ob es offensichtliche regulatorische Risiken gibt.</li>
+</ul>
+<p>👉 Dies ist keine Compliance-Prüfung, sondern ein Risikohinweis.</p>
+<h2>8. Aufgabe 3: Synthetisches Mini-Dataset (erste Version)</h2>
+<p>Ziel: Eine einfache, realistische Zahlenbasis schaffen.</p>
+<p>Du erstellst:</p>
+<ul>
+<li>30–100 fiktive Datensätze zu deinem Prozess,</li>
+<li>mit realistischen Zeiten, Fehlern, Mengen oder Beträgen,</li>
+<li>ohne echte Namen oder personenbezogene Daten.</li>
+</ul>
+<p>Dieses Dataset wird später für ROI- und Wirkungsabschätzungen genutzt.</p>
+<h2>9. Aufgabe 4: Problem Statement &amp; Decision Six – First Pass</h2>
+<p>Ziel: Den Kernschmerz klar formulieren und erste Optionen sichtbar machen.</p>
+<p>Du:</p>
+<ul>
+<li>formulierst ein messbares Problem Statement (ohne Lösungen),</li>
+<li>skizzierst 2–3 grobe Handlungsoptionen,</li>
+<li>hältst alles bewusst auf High-Level.</li>
+</ul>
+<p>Der Decision Six – First Pass ist ein Arbeitsdokument, kein finales Urteil.</p>
+<h2>10. Ressourcen &amp; Resource Hub</h2>
+<p>In Phase 1 nutzt du den Resource Hub insbesondere für:</p>
+<ul>
+<li>Einordnung von KI-Reife (AI Maturity),</li>
+<li>Überblick zu FADP/DSG im Schweizer Kontext,</li>
+<li>Praxisbeispiele und Leitfäden (z. B. SATW),</li>
+<li>die Template Library – Phase 1.</li>
+</ul>
+<p>Der Resource Hub unterstützt deine Analyse – er ersetzt sie nicht.</p>
+<h2>11. Übergang zu Phase 2</h2>
+<p>Mit Abschluss von Phase 1 hast du einen klar umrissenen, aber noch offenen Fall.</p>
+<p>In Phase 2 (Discovery Sprint) wirst du:</p>
+<ul>
+<li>Pain Points systematisch analysieren,</li>
+<li>Lösungsoptionen vergleichen,</li>
+<li>deinen Golden Use Case identifizieren.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><div class="card"><h2>Passende Readings</h2><div class="reading-list" id="phaseReadings"></div></div>
+<div class="card">
+<h2>Reflexionsfragen</h2>
+<p class="muted">Kurzer Reality-Check für Entscheidungsreife.</p>
+<div class="divider"></div>
+<ul>
+<li>Kannst du deine Kernaussage in <strong>30 Sekunden</strong> erklären – ohne Buzzwords?</li>
+<li>Könntest du es einem/einer <strong>CFO</strong> erklären: Nutzen, Kosten, Payback, Risiken?</li>
+<li>Welche <strong>eine Annahme</strong> würde dein Resultat am stärksten kippen?</li>
+</ul>
+</div>
+</div>
+<div>
+<div class="card"><h2>Checkliste</h2><p class="muted">Diese Punkte solltest du am Ende der Phase abhaken können (lokal gespeichert).</p>
+<div class="divider"></div>
+<label class="check searchable"><input data-progress-key="phase1_check_1" type="checkbox"/> <span>Case Selection Sheet ausgefüllt.</span></label>
+<label class="check searchable"><input data-progress-key="phase1_check_2" type="checkbox"/> <span>Case Tangibility Questionnaire ausgefüllt.</span></label>
+<label class="check searchable"><input data-progress-key="phase1_check_3" type="checkbox"/> <span>AI Ambition Note formuliert.</span></label>
+<label class="check searchable"><input data-progress-key="phase1_check_4" type="checkbox"/> <span>Readiness Snapshot (Data &amp; Culture) ausgefüllt.</span></label>
+<label class="check searchable"><input data-progress-key="phase1_check_5" type="checkbox"/> <span>Optional: DSG Red Flag identifiziert.</span></label>
+<label class="check searchable"><input data-progress-key="phase1_check_6" type="checkbox"/> <span>Synthetisches Mini-Dataset (erste Version, 30–100 Zeilen) erstellt.</span></label>
+<label class="check searchable"><input data-progress-key="phase1_check_7" type="checkbox"/> <span>Problem Statement formuliert.</span></label>
+<label class="check searchable"><input data-progress-key="phase1_check_8" type="checkbox"/> <span>Decision Six – First Pass ausgearbeitet.</span></label>
+</div>
+<div class="card slim">
+<h2>Phase abgeschlossen</h2>
+<p class="muted">Wenn du die Checkliste erfüllt hast:</p>
+<label class="check"><input data-progress-key="phase1_complete" type="checkbox"/> <span>Phase 1 als abgeschlossen markieren</span></label>
+</div>
+<div class="card"><h2>Templates dieser Phase</h2><div class="template-list" id="phaseTemplates"></div></div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="muted small">
+        Modul 617 Website · Content aus Kursunterlagen · Fortschritt nur lokal gespeichert
+      </div>
+</footer>
+</main>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>
