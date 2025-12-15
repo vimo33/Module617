@@ -40,6 +40,14 @@
     "download": "assets/templates/Module617_DSG_Red_Flag_Note_Template_UPDATED.docx"
   },
   {
+    "id": "process-dataset",
+    "title": "Process Dataset Template",
+    "phase": 1,
+    "phaseLabel": "Phase 1",
+    "filename": "Module617_Process_Dataset_Template.xlsx",
+    "download": "assets/templates/Module617_Process_Dataset_Template.xlsx"
+  },
+  {
     "id": "decision-six-first-pass",
     "title": "Decision Six – First Pass",
     "phase": 1,
