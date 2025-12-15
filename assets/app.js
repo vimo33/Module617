@@ -74,7 +74,7 @@
       const templates = await fetchJson("assets/templates.json");
       const list = templates.filter(t => t.phase === phase);
       tplMount.innerHTML = list.map(t => `
-        <div class="item searchable">
+        <a href="template-${t.id}.html" class="item searchable link-item">
           <div>
             <div class="row" style="margin-bottom:6px">
               <span class="badge">Template</span>
@@ -84,10 +84,10 @@
             <p class="muted">Vorschau, Hinweise & Download</p>
           </div>
           <div class="item-right">
-            <a href="template-${t.id}.html">Öffnen →</a>
-            <a class="muted small" href="${t.download}" download>DOCX herunterladen</a>
+            <span class="btn-link">Öffnen →</span>
+            <object class="dl-link"><a class="muted small" href="${t.download}" download>DOCX</a></object>
           </div>
-        </div>
+        </a>
       `).join("");
     }
 
@@ -104,7 +104,7 @@
       mount.innerHTML = `<div class="muted">Keine Readings für diese Phase hinterlegt.</div>`;
     } else {
       mount.innerHTML = list.map(r => `
-        <div class="item searchable">
+        <a href="${r.url}" target="_blank" rel="noopener noreferrer" class="item searchable link-item">
           <div>
             <div class="row" style="margin-bottom:6px">
               <span class="badge ${r.tag === "CORE" ? "core" : "opt"}">${r.tag === "CORE" ? "⭐" : "📖"} ${r.tag}</span>
@@ -115,9 +115,9 @@
             ${r.use ? `<p class="muted small" style="margin-top:8px"><strong>Use:</strong> ${r.use}</p>` : ""}
           </div>
           <div class="item-right">
-            <a href="${r.url}" target="_blank" rel="noopener noreferrer">Öffnen ↗</a>
+            <span class="btn-link">Öffnen ↗</span>
           </div>
-        </div>
+        </a>
       `).join("");
     }
   }
@@ -128,7 +128,7 @@
     if (!mount) return;
     const templates = await fetchJson("assets/templates.json");
     mount.innerHTML = templates.map(t => `
-      <div class="item searchable">
+      <a href="template-${t.id}.html" class="item searchable link-item">
         <div>
           <div class="row" style="margin-bottom:6px">
             <span class="badge">Phase ${t.phase}</span>
@@ -137,10 +137,10 @@
           <p class="muted">Offizielle Vorlage (DOCX) + annotierte Vorschau</p>
         </div>
         <div class="item-right">
-          <a href="template-${t.id}.html">Öffnen →</a>
-          <a class="muted small" href="${t.download}" download>DOCX</a>
+          <span class="btn-link">Öffnen →</span>
+          <object class="dl-link"><a class="muted small" href="${t.download}" download>DOCX</a></object>
         </div>
-      </div>
+      </a>
     `).join("");
   }
 
@@ -167,7 +167,7 @@
         <h2>${k}</h2>
         <div class="reading-list">
           ${groups[k].map(r => `
-            <div class="item searchable">
+            <a href="${r.url}" target="_blank" rel="noopener noreferrer" class="item searchable link-item">
               <div>
                 <div class="row" style="margin-bottom:6px">
                   <span class="badge ${r.tag === "CORE" ? "core" : "opt"}">${r.tag}</span>
@@ -177,9 +177,9 @@
                 ${r.use ? `<p class="muted small" style="margin-top:8px"><strong>Use:</strong> ${r.use}</p>` : ""}
               </div>
               <div class="item-right">
-                <a href="${r.url}" target="_blank" rel="noopener noreferrer">Öffnen ↗</a>
+                <span class="btn-link">Öffnen ↗</span>
               </div>
-            </div>
+            </a>
           `).join("")}
         </div>
       </div>

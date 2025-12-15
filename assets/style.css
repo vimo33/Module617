@@ -429,6 +429,38 @@ kbd {
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
+a.link-item {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  cursor: pointer;
+}
+
+a.link-item:hover h4 {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+a.link-item .btn-link {
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Ensure the download link inside the object is clickable and styled independent of the parent */
+object.dl-link {
+  position: relative;
+  z-index: 2;
+}
+
+object.dl-link a {
+  text-decoration: none;
+}
+
+object.dl-link a:hover {
+  text-decoration: underline;
+}
+
 .check:last-child {
   border-bottom: none;
 }
