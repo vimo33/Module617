@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template: Process Dataset Template · Module 617 – Lernplattform</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div id="passwordGate" class="gate hidden" aria-hidden="true">
+        <div class="gate-card">
+            <h2>Zugriff</h2>
+            <p>Bitte Kurs-Passwort eingeben.</p>
+            <div class="gate-row">
+                <input type="password" id="gateInput" placeholder="Passwort">
+                <button id="gateBtn" class="btn primary">Weiter</button>
+            </div>
+            <p id="gateError" class="muted error hidden">Falsches Passwort.</p>
+            <p class="muted small">Hinweis: Dies ist eine einfache Zugriffsschranke (ohne Benutzerkonto). Fortschritt
+                wird lokal gespeichert.</p>
+        </div>
+    </div>
+
+    <div class="app">
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-mark">617</div>
+                <div class="brand-text">
+                    <div class="brand-title">Module 617</div>
+                    <div class="brand-subtitle">KI-Geschäftschancen bewerten</div>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-item">🏠 Start</a>
+                <a href="phase-1.html" class="nav-item">① Phase 1</a>
+                <a href="phase-2.html" class="nav-item">② Phase 2</a>
+                <a href="phase-3.html" class="nav-item">③ Phase 3</a>
+                <a href="phase-4.html" class="nav-item">④ Phase 4</a>
+                <a href="phase-5.html" class="nav-item">⑤ Phase 5</a>
+                <a href="templates.html" class="nav-item active">📄 Templates</a>
+                <a href="resources.html" class="nav-item">📚 Ressourcen</a>
+                <a href="help.html" class="nav-item">❓ Hilfe</a>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="chip">DE-only · Static</div>
+                <div class="muted small">Progress: lokal (Browser)</div>
+            </div>
+        </aside>
+
+        <main class="main">
+            <header class="topbar">
+                <div class="topbar-left">
+                    <div class="breadcrumbs">
+                        <a href="index.html">Start</a> <span class="sep">/</span>
+                        <a href="templates.html">Templates</a> <span class="sep">/</span>
+                        <span>Template</span>
+                    </div>
+                    <h1 class="page-title">Template: Process Dataset Template</h1>
+                    <div id="pageMeta" class="muted small"></div>
+                </div>
+                <div class="topbar-right">
+                    <div class="search">
+                        <span class="search-icon">⌕</span>
+                        <input type="search" id="searchInput" placeholder="Suche (Templates, Readings …)">
+                    </div>
+                </div>
+            </header>
+
+            <div class="content">
+                <div class="grid">
+                    <div>
+                        <div class="card">
+                            <div class="row">
+                                <span class="badge">① Phase 1</span>
+                                <span class="badge">Official XLSX</span>
+                                <span class="badge">Vorschau</span>
+                            </div>
+                            <div class="divider"></div>
+
+                            <h2>Process Dataset Template</h2>
+                            <p class="muted">Offizielle Vorlage für das synthetische Mini-Dataset. Download als XLSX.
+                            </p>
+
+                            <div class="row" style="margin-top:10px">
+                                <a href="assets/templates/Module617_Process_Dataset_Template.xlsx" class="btn primary"
+                                    download>XLSX herunterladen</a>
+                                <a href="phase-1.html" class="btn">Zur Phase 1</a>
+                            </div>
+
+                            <div class="divider"></div>
+
+                            <h3>Hinweise zur Bearbeitung</h3>
+                            <ul>
+                                <li><strong>Keine echten Daten:</strong> Verwende ausschliesslich fiktive oder
+                                    synthetische Daten.</li>
+                                <li><strong>Realistische Muster:</strong> Die Zahlen sollten plausibel sein (z.B.
+                                    realistische Verteilungen).</li>
+                                <li><strong>Umfang:</strong> 30–100 Zeilen reichen für die erste Analyse völlig aus.
+                                </li>
+                                <li><strong>Struktur:</strong> Jede Zeile ein Fall (Case), jede Spalte ein Merkmal
+                                    (Feature).</li>
+                            </ul>
+
+                            <div class="divider"></div>
+
+                            <h3>Vorschau (aus der XLSX)</h3>
+                            <div class="muted small">Hinweis: Dies ist eine vereinfachte Darstellung der Excel-Struktur.
+                            </div>
+
+                            <div class="divider"></div>
+
+                            <p><strong>Tabellenblatt 1: Dataset</strong></p>
+                            <div class="table-wrap">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Case ID</th>
+                                            <th>Eingangsdatum</th>
+                                            <th>Kategorie</th>
+                                            <th>Bearbeitungszeit (Min)</th>
+                                            <th>Fehlerhaft? (J/N)</th>
+                                            <th>Komplexität (1-5)</th>
+                                            <th>Kosten (CHF)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>CASE-001</td>
+                                            <td>01.01.2024</td>
+                                            <td>Anfrage A</td>
+                                            <td>15</td>
+                                            <td>N</td>
+                                            <td>2</td>
+                                            <td>25.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>CASE-002</td>
+                                            <td>01.01.2024</td>
+                                            <td>Beschwerde</td>
+                                            <td>45</td>
+                                            <td>J</td>
+                                            <td>5</td>
+                                            <td>120.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <p style="margin-top: 20px;"><strong>Tabellenblatt 2: Meta-Infos (Annahmen)</strong></p>
+                            <ul>
+                                <li>Quelle der Daten: (Synthetisch / ChatGPT generiert / Manuell geschätzt)</li>
+                                <li>Zeitraum: (z.B. Januar 2024)</li>
+                                <li>Besonderheiten: (z.B. "Fehlerquote bewusst erhöht auf 15%")</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="card">
+                            <h2>Passende Readings</h2>
+                            <p class="muted small">Diese Readings erscheinen auch in der Phase.</p>
+                            <div id="phaseReadings" class="reading-list"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="card">
+                            <h2>Task-Status</h2>
+                            <p class="muted">Nur für dich sichtbar (lokal gespeichert).</p>
+                            <div class="divider"></div>
+                            <label class="check"><input type="checkbox" data-progress-key="tpl_process-dataset_done">
+                                <span>Ich habe diese Vorlage bearbeitet</span></label>
+                            <label class="check"><input type="checkbox" data-progress-key="tpl_process-dataset_ready">
+                                <span>Ich bin mit dem Ergebnis zufrieden (v1)</span></label>
+
+                            <div class="divider"></div>
+                            <h3>Sanity-Check (später mit AI)</h3>
+                            <p class="muted small">Diese Website ist AI-ready. Später können wir hier Buttons
+                                einblenden: „Datenmuster prüfen“, „Ausreisser finden“, „Visualisieren“.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <div class="muted small">
+                    Modul 617 Website · Content aus Kursunterlagen · Fortschritt nur lokal gespeichert
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="assets/app.js"></script>
+    <script>
+        // Zeige Readings für Phase 1 an, da dieses Template zu Phase 1 gehört
+        window.renderReadings("phaseReadings", "Phase 1");
+    </script>
+</body>
+
+</html>
