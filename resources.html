@@ -1,80 +1,86 @@
 <!DOCTYPE html>
 
 <html lang="de">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Ressourcen · Module 617 – Lernplattform</title>
-<link href="assets/style.css" rel="stylesheet"/>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Ressourcen · Module 617 – Lernplattform</title>
+  <link href="assets/style.css" rel="stylesheet" />
 </head>
+
 <body>
-<div aria-hidden="true" class="gate hidden" id="passwordGate">
-<div class="gate-card">
-<h2>Zugriff</h2>
-<p>Bitte Kurs-Passwort eingeben.</p>
-<div class="gate-row">
-<input id="gateInput" placeholder="Passwort" type="password"/>
-<button class="btn primary" id="gateBtn">Weiter</button>
-</div>
-<p class="muted error hidden" id="gateError">Falsches Passwort.</p>
-<p class="muted small">Hinweis: Dies ist eine einfache Zugriffsschranke (ohne Benutzerkonto). Fortschritt wird lokal gespeichert.</p>
-</div>
-</div>
-<div class="app">
-<aside class="sidebar">
-<div class="brand">
-<div class="brand-mark">617</div>
-<div class="brand-text">
-<div class="brand-title">Module 617</div>
-<div class="brand-subtitle">KI-Geschäftschancen bewerten</div>
-</div>
-</div>
-<nav class="nav">
-<a class="nav-item" href="index.html">🏠 Start</a>
-<a class="nav-item" href="phase-1.html">① Phase 1</a>
-<a class="nav-item" href="phase-2.html">② Phase 2</a>
-<a class="nav-item" href="phase-3.html">③ Phase 3</a>
-<a class="nav-item" href="phase-4.html">④ Phase 4</a>
-<a class="nav-item" href="phase-5.html">⑤ Phase 5</a>
-<a class="nav-item" href="templates.html">📄 Templates</a>
-<a class="nav-item active" href="resources.html">📚 Ressourcen</a>
-<a class="nav-item" href="templates.html">📄 Templates</a>
-<a class="nav-item" href="help.html">❓ Hilfe</a>
-</nav>
-<div class="sidebar-footer">
-<div class="chip">DE-only · Static</div>
-<div class="muted small">Progress: lokal (Browser)</div>
-</div>
-</aside>
-<main class="main">
-<header class="topbar">
-<div class="topbar-left">
-<h1 class="page-title">📚 Ressourcen</h1>
-<div class="muted small" id="pageMeta"></div>
-</div>
-<div class="topbar-right">
-<div class="search">
-<span class="search-icon">⌕</span>
-<input id="searchInput" placeholder="Suche (Templates, Readings …)" type="search"/>
-</div>
-</div>
-</header>
-<div class="content">
-<div class="card">
-<h2>Resource Hub – Lesematerialien</h2>
-<p class="muted">Hier findest du alle Readings gesammelt. Die gleichen Readings werden zusätzlich in den jeweiligen Phasen eingebettet angezeigt.</p>
-<div class="divider"></div>
-<p class="muted small">Links öffnen in einem neuen Tab. (Hinweis: externe Inhalte unterliegen den jeweiligen Nutzungsrechten.)</p>
-</div>
-<div id="resourcesIndex"></div>
-</div>
-<footer class="footer">
-<div class="muted small">
-        Modul 617 Website · Content aus Kursunterlagen · Fortschritt nur lokal gespeichert
+  <div aria-hidden="true" class="gate hidden" id="passwordGate">
+    <div class="gate-card">
+      <h2>Zugriff</h2>
+      <p>Bitte Kurs-Passwort eingeben.</p>
+      <div class="gate-row">
+        <input id="gateInput" placeholder="Passwort" type="password" />
+        <button class="btn primary" id="gateBtn">Weiter</button>
       </div>
-</footer>
-</main>
-</div>
-<script src="assets/app.js"></script>
+      <p class="muted error hidden" id="gateError">Falsches Passwort.</p>
+      <p class="muted small">Hinweis: Dies ist eine einfache Zugriffsschranke (ohne Benutzerkonto). Fortschritt wird
+        lokal gespeichert.</p>
+    </div>
+  </div>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">617</div>
+        <div class="brand-text">
+          <div class="brand-title">Module 617</div>
+          <div class="brand-subtitle">KI-Geschäftschancen bewerten</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a class="nav-item" href="index.html">🏠 Start</a>
+        <a class="nav-item" href="phase-1.html">① Phase 1</a>
+        <a class="nav-item" href="phase-2.html">② Phase 2</a>
+        <a class="nav-item" href="phase-3.html">③ Phase 3</a>
+        <a class="nav-item" href="phase-4.html">④ Phase 4</a>
+        <a class="nav-item" href="phase-5.html">⑤ Phase 5</a>
+        <a class="nav-item" href="templates.html">📄 Templates</a>
+        <a class="nav-item active" href="resources.html">📚 Ressourcen</a>
+
+        <a class="nav-item" href="help.html">❓ Hilfe</a>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="chip">DE-only · Static</div>
+        <div class="muted small">Progress: lokal (Browser)</div>
+      </div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-left">
+          <h1 class="page-title">📚 Ressourcen</h1>
+          <div class="muted small" id="pageMeta"></div>
+        </div>
+        <div class="topbar-right">
+          <div class="search">
+            <span class="search-icon">⌕</span>
+            <input id="searchInput" placeholder="Suche (Templates, Readings …)" type="search" />
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="card">
+          <h2>Resource Hub – Lesematerialien</h2>
+          <p class="muted">Hier findest du alle Readings gesammelt. Die gleichen Readings werden zusätzlich in den
+            jeweiligen Phasen eingebettet angezeigt.</p>
+          <div class="divider"></div>
+          <p class="muted small">Links öffnen in einem neuen Tab. (Hinweis: externe Inhalte unterliegen den jeweiligen
+            Nutzungsrechten.)</p>
+        </div>
+        <div id="resourcesIndex"></div>
+      </div>
+      <footer class="footer">
+        <div class="muted small">
+          Modul 617 Website · Content aus Kursunterlagen · Fortschritt nur lokal gespeichert
+        </div>
+      </footer>
+    </main>
+  </div>
+  <script src="assets/app.js"></script>
 </body>
+
 </html>
