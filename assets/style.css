@@ -639,6 +639,30 @@ object.dl-link a:hover {
   }
 }
 
+@media (max-width: 600px) {
+  .item {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .item-right {
+    align-items: flex-start;
+    min-width: unset;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 4px;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+  }
+
+  .reading-list .item,
+  .template-list .item {
+    padding: 18px;
+  }
+}
+
 /* Phases sheet (mobile) */
 .phases-sheet {
   position: fixed;
